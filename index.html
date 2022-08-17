@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Challange-Alura-ONE-Encriptador/style.css">
-    <title>Primeiro Challange</title>
+    <link rel="stylesheet" href="/css/reset-css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Primeiro Challange Criptografia</title>
 </head>
 <body>
-    <section class="principalPainel">
-    <img src="imgChalangeI/icone-alura.png" alt="icone-alura" class="icone-alura">
-    <div class="container-principal"    
-        <div class="container-texto-botoes">
-                <textarea name="EntradaTexto" id="EntradaTexto" class="EntradaTexto" cols="30" rows="10" placeholder=" Digite seu texto " wrap="hard"></textarea>
-                <div class="botoes">
-                    <button class="botao-criptografa">Criptografar</button>
-                    <button class="botao-descriptografa">Descriptografar</button>
-                </div>
+    
+    <section class="painel">
+        <a href="https://www.alura.com.br/" target="_blank">
+            <img src="imgChalangeI/icone-alura.png" alt="alura-icone" class="icone-alura">
+        </a>
+
+        <div class="container-principal">
+            <div class="container-texto-botoes">
+                <textarea name="nome-entrada-criptografia" id="id-entrada-criptografia" class="class-entrada-criptografia" 
+                 cols="20" rows="10" placeholder=" Digite seu texto aqui " wrap="hard"></textarea>
+
+                 <div class="botoes">
+                    <button class="botao-criptografia">Criptografar</button>
+                    <button class="botao-descriptografia">Descriptografar</button>
+                 </div>
+            </div>
+        
+             <div class="container-resultado">
+                <textarea name="nome-resultado" id="id-resultado" class="class-resultado"
+                cols="20" rows="10" readonly placeholder=" "></textarea>
+            
+                <button class="copia-resultado">Copiar</button>
+            </div>
         </div>
-                <div class="container-resultado">
-                    <textarea name="resultado-criptografia" id="resultado-criptografia" cols="30" rows="10" readonly placeholder="Resultado"></textarea>
-                    <button class="copia">Copiar</button>
-                </div>
-        </div>
+
     </section>
+
 </body>
 <footer>
-    <p>Redes sociais </p>
+    <p> Meet me better 
+        <a href="https://www.linkedin.com/in/patricia-carvalho-de-souza/" target="_blank">
+        <img src="imgChalangeI/linkedinicone.png" class="icone-linkedin" alt="icone-linkedin" >
+        </a>
+    </p>
 </footer>
-<script>
-
-</script>
+<script src="/scripts/scripts.js"></script>
 </html>
